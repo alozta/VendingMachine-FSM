@@ -1,0 +1,51 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do vending-machine_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Ozan/Desktop/rocket-team-vending-machine {C:/Users/Ozan/Desktop/rocket-team-vending-machine/vending_machine.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module vending_machine
+# 
+# Top level modules:
+# 	vending_machine
+# 
+vlog -reportprogress 300 -work work C:/Users/Ozan/Desktop/rocket-team-vending-machine/vending_machine_testbench.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module vending_machine_testbench
+# 
+# Top level modules:
+# 	vending_machine_testbench
+vsim work.vending_machine_testbench
+# vsim work.vending_machine_testbench 
+# Loading work.vending_machine_testbench
+# Loading work.vending_machine
+add wave -position insertpoint  \
+sim:/vending_machine_testbench/add_mon \
+sim:/vending_machine_testbench/all_led \
+sim:/vending_machine_testbench/ent \
+sim:/vending_machine_testbench/err_it_no \
+sim:/vending_machine_testbench/err_pswrd \
+sim:/vending_machine_testbench/it_no \
+sim:/vending_machine_testbench/mode \
+sim:/vending_machine_testbench/mon \
+sim:/vending_machine_testbench/pswrd \
+sim:/vending_machine_testbench/rem \
+sim:/vending_machine_testbench/res \
+sim:/vending_machine_testbench/state \
+sim:/vending_machine_testbench/suc_it_no \
+sim:/vending_machine_testbench/suc_rem
+step -current
+# time=                   0: state:15, pswrd: 0, mon:2, it_no: 2
+# 
+# time=                   0: state:16, pswrd: 0, mon:2, it_no: 2
+# 
+# time=                 210: state: 0, pswrd: 0, mon:0, it_no: 0
+# 

@@ -1,0 +1,44 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Ozan\Desktop\rocket-team-vending-machine\simulation\modelsim
+vvending_machine
+I?^F;RCFC>XGXKM7k^AIJd0
+VeAaLTQh94ReXBamWakl003
+Z1 dC:\Users\Ozan\Desktop\rocket-team-vending-machine\simulation\modelsim
+w1480278663
+8C:/Users/Ozan/Desktop/rocket-team-vending-machine/vending_machine.v
+FC:/Users/Ozan/Desktop/rocket-team-vending-machine/vending_machine.v
+L0 26
+Z2 OV;L;10.1d;51
+r1
+31
+o-vlog01compat -work work -O0
+!i10b 1
+!s100 Na6k18o[Y?M^;QR^?9F5a2
+!s85 0
+!s108 1480278793.031000
+!s107 C:/Users/Ozan/Desktop/rocket-team-vending-machine/vending_machine.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Ozan/Desktop/rocket-team-vending-machine|C:/Users/Ozan/Desktop/rocket-team-vending-machine/vending_machine.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/Ozan/Desktop/rocket-team-vending-machine -O0
+vvending_machine_testbench
+!i10b 1
+!s100 MzDC7L[]Szdc0nfYV6?o32
+I`K6LkNR<e@^8NEKEEO6k;1
+Vh9V`<`2o?Rok9gKBAX;mM2
+R1
+w1480278763
+8C:/Users/Ozan/Desktop/rocket-team-vending-machine/vending_machine_testbench.v
+FC:/Users/Ozan/Desktop/rocket-team-vending-machine/vending_machine_testbench.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1480278799.192000
+!s107 C:/Users/Ozan/Desktop/rocket-team-vending-machine/vending_machine_testbench.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Ozan/Desktop/rocket-team-vending-machine/vending_machine_testbench.v|
+!s101 -O0
+o-work work -O0

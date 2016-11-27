@@ -1,0 +1,24 @@
+/*
+ * Final state machine implementation of a vending machine in verilog hdl.
+ *
+ * Inputs:
+ * 	mode:			@switch0, 		1 admin, 0 user
+ * 	ent: 			@switch8, 		any change is accepted as enter
+ * 	res: 			@switch9, 		1 reset
+ * 	pswrd: 		@switch[0:3], 	password
+ * 	mon: 			@switch[0:2], 	money
+ * 	it_no: 		@switch[0:3], 	item no
+ * 	rem: 			@switch0, 		remainder option
+ *
+ * Outputs:
+ * 	err_pswrd:	@led0,			wrong password (admin)
+ *		err_it_no:	@led1,			wrong item no (admin)
+ *		suc_it_no:	@led2,			correct item no (user)
+ *		suc_rem:		@7segment,		remaining money (user)
+ */
+module vending_machine(mode,ent,res,pswrd,mon,it_no,rem,err_pswrd,err_it_no,suc_it_no,suc_rem);
+	input mode,ent,res,pswrd,mon,it_no,rem;
+	output err_pswrd,err_it_no,suc_it_no,suc_rem;
+	
+	
+endmodule 
