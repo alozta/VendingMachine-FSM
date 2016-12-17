@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pin_planner>
+	<pin_info>
+		<pin name="leds[0..9]" direction="Output" source="Pin Planner" >
+		</pin>
+		<pin name="seven_seg[0..6]" direction="Output" source="Pin Planner" >
+		</pin>
+		<pin name="seven_seg1[0..6]" direction="Output" source="Pin Planner" >
+		</pin>
+		<pin name="seven_seg2[0..6]" direction="Output" source="Pin Planner" >
+		</pin>
+		<pin name="seven_seg3[0..6]" direction="Output" source="Pin Planner" >
+		</pin>
+	</pin_info>
+	<buses>
+		<bus name="leds[0..9]" direction="Output" >
+			<member name="leds[0]" />
+			<member name="leds[1]" />
+			<member name="leds[2]" />
+			<member name="leds[3]" />
+			<member name="leds[4]" />
+			<member name="leds[5]" />
+			<member name="leds[6]" />
+			<member name="leds[7]" />
+			<member name="leds[8]" />
+			<member name="leds[9]" />
+		</bus>
+		<bus name="seven_seg[0..6]" direction="Output" >
+			<member name="seven_seg[0]" />
+			<member name="seven_seg[1]" />
+			<member name="seven_seg[2]" />
+			<member name="seven_seg[3]" />
+			<member name="seven_seg[4]" />
+			<member name="seven_seg[5]" />
+			<member name="seven_seg[6]" />
+		</bus>
+		<bus name="seven_seg1[0..6]" direction="Output" >
+			<member name="seven_seg1[0]" />
+			<member name="seven_seg1[1]" />
+			<member name="seven_seg1[2]" />
+			<member name="seven_seg1[3]" />
+			<member name="seven_seg1[4]" />
+			<member name="seven_seg1[5]" />
+			<member name="seven_seg1[6]" />
+		</bus>
+		<bus name="seven_seg2[0..6]" direction="Output" >
+			<member name="seven_seg2[0]" />
+			<member name="seven_seg2[1]" />
+			<member name="seven_seg2[2]" />
+			<member name="seven_seg2[3]" />
+			<member name="seven_seg2[4]" />
+			<member name="seven_seg2[5]" />
+			<member name="seven_seg2[6]" />
+		</bus>
+		<bus name="seven_seg3[0..6]" direction="Output" >
+			<member name="seven_seg3[0]" />
+			<member name="seven_seg3[1]" />
+			<member name="seven_seg3[2]" />
+			<member name="seven_seg3[3]" />
+			<member name="seven_seg3[4]" />
+			<member name="seven_seg3[5]" />
+			<member name="seven_seg3[6]" />
+		</bus>
+	</buses>
+	<group_file_association>
+	</group_file_association>
+	<pin_planner_file_specifies>
+	</pin_planner_file_specifies>
+</pin_planner>
